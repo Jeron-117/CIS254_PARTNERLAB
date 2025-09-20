@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Lab1 Currency Conversion (GTQ <-> USD) & (PHP <-> USD)
  * Description: This program converts Guatemalan Quetzales & Philppine Pesos to US Dollars and vice versa using separate methods and a class constant for the rate.
@@ -5,10 +7,8 @@
  * @author Jeron Montecillo
  * @since 2025-09-15
  */
-import java.util.Scanner;
 
 public class Conversion {
-
    // --------- Conversion constants (mid-market reference) -----
    // 1 GTQ to USD 
    static final double DOLLAR_PER_QUETZAL = 0.1306;  // 1 GTQ ≈ 0.1306 USD
