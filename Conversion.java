@@ -90,11 +90,11 @@ public class Conversion {
             break;
          case 3:
             convert = PHP2USD(value);
-            System.out.printf("₱%.2f = $%.2f%n", value, convert);
+            System.out.printf("U+20B1\u%.2f = $%.2f%n", value, convert);
             break;
          case 4:
             convert = USD2PHP(value);
-            System.out.printf("$%.2f = ₱%.2f%n", value, convert);
+            System.out.printf("$%.2f = U+20B1\u%.2f%n", value, convert);
             break;
          default:
             System.out.println("Invalid option.");
