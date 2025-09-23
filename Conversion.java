@@ -86,15 +86,15 @@ public class Conversion {
             break;
          case 2:
             convert = Dollar2Quetzal(value);
-            System.out.printf("$%.2f = Q%.2f%n", value, convert); // 2 decimales
+            System.out.printf("%.2f = Q%.2f%n", value, convert); // 2 decimales
             break;
          case 3:
             convert = PHP2USD(value);
-            System.out.printf("₱%.2f = $%.2f%n", value, convert);
+            System.out.printf("%.2f PHP = %.2f PHP%n", value, convert);
             break;
          case 4:
             convert = USD2PHP(value);
-            System.out.printf("$%.2f = ₱%.2f%n", value, convert);
+            System.out.printf("%.2f USD = %.2f PHP%n", value, convert);
             break;
          default:
             System.out.println("Invalid option.");
