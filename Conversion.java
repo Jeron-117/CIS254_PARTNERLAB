@@ -76,7 +76,7 @@ public class Conversion {
    public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
       int choice = menu(sc);
-      System.out.print("Enter the amount to convert: ");
+      System.out.print("Enter an amount to convert: ");
       double value = sc.nextDouble();
       double convert;
       switch (choice) {
@@ -86,7 +86,7 @@ public class Conversion {
             break;
          case 2:
             convert = Dollar2Quetzal(value);
-            System.out.printf("%.2f = Q%.2f%n", value, convert); // 2 decimales
+            System.out.printf("$%.2f = Q%.2f%n", value, convert); // 2 decimales
             break;
          case 3:
             convert = PHP2USD(value);
