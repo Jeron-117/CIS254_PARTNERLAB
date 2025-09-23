@@ -90,7 +90,7 @@ public class Conversion {
             break;
          case 3:
             convert = PHP2USD(value);
-            System.out.printf("%.2f PHP = %.2f PHP%n", value, convert);
+            System.out.printf("%.2f PHP = %.2f USD%n", value, convert);
             break;
          case 4:
             convert = USD2PHP(value);
