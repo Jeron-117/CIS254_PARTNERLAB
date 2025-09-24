@@ -69,9 +69,8 @@ public class Conversion {
    }
 
    /**
-    * 
-    * 
-    * 
+    * Calls menu to get the option and makes appropriate call to conversion method.
+    * @param args command line arguments
     */
    public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
