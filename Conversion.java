@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 /**
- * Lab1 Currency Conversion (GTQ <-> USD) & (PHP <-> USD)
- * Description: This program converts Guatemalan Quetzales & Philppine Pesos to US Dollars and vice versa using separate methods and a class constant for the rate.
+ * Lab1 Currency Conversion (GTQ to and from USD), (PHP to and from USD)
+ * Description: This program converts Guatemalan Quetzales and Philppine Pesos to US Dollars vice versa using separate methods and a class constant for the rate.
  * @author Edisson Ajciginac
  * @author Jeron Montecillo
- * @since 2025-09-15
+ * @since 2025-09-23
  */
 
 public class Conversion {
@@ -55,7 +55,7 @@ public class Conversion {
     * @param amountPHP amount in PHP
     * @return amount in USD
     */
-   static double PHP2USD(double amountPHP) {
+   public static double PHP2USD(double amountPHP) {
       return amountPHP * 0.017560471;
    }
 
@@ -64,7 +64,7 @@ public class Conversion {
     * @param amountUSD amount in USD
     * @return amount in PHP
     */
-   static double USD2PHP(double amountUSD) {
+   public static double USD2PHP(double amountUSD) {
       return amountUSD * 56.946082;
    }
 
