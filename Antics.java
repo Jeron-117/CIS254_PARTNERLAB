@@ -1,4 +1,4 @@
-public class Antics1 {
+public class Antics {
     public static boolean isPalindrome(String word){
         return true;
     }
